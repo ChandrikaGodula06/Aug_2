@@ -1,0 +1,20 @@
+public class SearchElement {
+    public static void main(String[] args) {
+        int[] array = {10, 21, 4, 45, 66, 93, 22};
+        int elementToSearch = 45;
+        boolean found = false;
+for (int element : array) {
+            if (element == elementToSearch) {
+                found = true;
+                break;
+            }
+        }
+  if (found) {
+            System.out.println("Element " + elementToSearch + " found in the array.");
+        } else {
+            System.out.println("Element " + elementToSearch + " not found in the array.");
+        }
+    }
+}
+       
+      
