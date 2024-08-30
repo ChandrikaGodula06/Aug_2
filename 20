@@ -1,0 +1,11 @@
+public class RepeatCharacters {
+    public static void main(String[] args) {
+       String originalString = "hello";
+        StringBuilder newString = new StringBuilder();
+        for (char ch : originalString.toCharArray()) {
+            newString.append(ch).append(ch);
+        }
+        System.out.println("Original string: " + originalString);
+        System.out.println("New string with each character repeated twice: " + newString.toString());
+    }
+}
