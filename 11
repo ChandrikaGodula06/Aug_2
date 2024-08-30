@@ -1,0 +1,9 @@
+public class CanonicalStringRepresentation {
+    public static void main(String[] args) {
+        String originalString = "Hello, World!";
+        String canonicalRepresentation = originalString;
+        System.out.println("Canonical representation of the string is: " + canonicalRepresentation);
+        int hashCode = originalString.hashCode();
+        System.out.println("Hash code of the string: " + hashCode);
+    }
+}
