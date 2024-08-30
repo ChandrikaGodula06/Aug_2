@@ -1,0 +1,17 @@
+public class MaxStringComparison {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the first string: ");
+        String firstString = scanner.nextLine();
+        System.out.print("Enter the second string: ");
+        String secondString = scanner.nextLine();
+        int comparisonResult = firstString.compareTo(secondString);
+        if (comparisonResult > 0) {
+            System.out.println("The maximum string is: " + firstString);
+        } else if (comparisonResult < 0) {
+            System.out.println("The maximum string is: " + secondString);
+        } else {
+            System.out.println("Both strings are equal.");
+        }
+    }
+}
